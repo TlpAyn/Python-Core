@@ -11,3 +11,4 @@ person['irk'] = 'tr'
 print(type(person))
 print(person)
 print(person['soyisim'])
+print(person['isim'])
