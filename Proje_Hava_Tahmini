@@ -1,0 +1,14 @@
+import requests
+import json
+
+hayvamID = input("put Id")
+endpoint = "https://petstore.swagger.io/v2/pet/findByStatus?status=available"
+
+response = requests.get(endpoint)
+
+print(response.status_code)
+
+if response.status_code== 200:
+
+    print(response.content)
+
