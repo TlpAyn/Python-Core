@@ -1,0 +1,10 @@
+def user (x,y,*args, **kwargs):
+    print(x,y)
+    print(args)
+
+    for items in args:
+        print(items)
+    print(kwargs)
+
+user("den1","den2",123,456,788,999,654,221,233, duru="lasting", first_name="Denge")
+
